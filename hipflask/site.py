@@ -7,6 +7,7 @@ from flask import url_for, render_template
 apps = {}
 reverse_apps = {}
 groups = []
+paged_apps = {}
 
 with open('content/site.yaml', 'r') as f:
     yaml_repr = yaml.load(f)
@@ -16,11 +17,19 @@ for group_repr in yaml_repr:
     group_members = group_repr.values()[0]
     items = []
     for item in group_members:
+        if len(item.keys()) > 1:
+            num_pages = item['pages']
+            del item['pages']
+        else:
+            num_pages = 0
         item_name = item.keys()[0]
         item_url = item.values()[0]
         items.append({'name': item_name, 'url': item_url})
         apps[item_name] = item_url
         reverse_apps[item_url] = item_name
+        
+        if num_pages > 0:
+            paged_apps[item_url] = num_pages
     groups.append({
         'name': group_name,
         'items': items
