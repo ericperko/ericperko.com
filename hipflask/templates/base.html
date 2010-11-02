@@ -1,0 +1,74 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    <head>
+    <title>Steve, Asleep - {% autoescape off %}{{title}}{% endautoescape %}</title>
+    <link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/blueprintcss/screen.css" />
+    <link rel="stylesheet" href="/css/blueprintcss/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprintcss/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+    <link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/main.css" />
+    {% block css %}
+    {% endblock %}
+
+    {% block extra_head %}{% endblock %}
+    </head>
+
+    <body>
+        {% block bd %}
+        <div class="container {% block pageclass %}{% endblock %}" id="main">
+            <h1 id="title"><a href="{{ url_for('index') }}">STEVE, ASLEEP</a></h1>
+            <hr class="space"/><br/>
+            <div class="span-8" id="sidebar">
+                <div class="span-8">
+                    <ul>
+                        {% for d in default %}
+                            <li><a href="{{d.url}}">{{d.name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr/>
+                <div class="span-8">
+                    <h2>Toys</h2>
+                    <ul>
+                        {% for t in toys %}
+                            <li><a href="{{t.url}}">{{t.name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr/>
+                <div class="span-8">
+                    <h2>Code</h2>
+                    <ul>
+                        {% for c in code %}
+                            <li><a href="{{c.url}}">{{c.name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr/>
+                <div class="span-8">
+                    <h2>Social</h2>
+                    <ul>
+                        <li><a href="{{ url_for('resume') }}">R&eacute;sum&eacute;</a></li>
+                        <li><a href="http://careers.stackoverflow.com/stevejohnson">Stack Overflow CV</a></li>
+                        <li><a href="http://www.twitter.com/irskep">Twitter</a></li>
+                        <li><a href="http://stackoverflow.com/users/8061/steve-johnson">Stack Overflow</a></li>
+                        <li><a href="http://news.ycombinator.com/user?id=stevejohnson">Hacker News</a></li>
+                    </ul>
+                </div>
+                {% block extra_sidebar_bottom %}{% endblock %}
+            </div>
+            <div class="span-15 last" id="content">
+                {% block content %}{% endblock %}
+            </div>
+            <hr class="space"/>
+            <div class="span-24 last" id="footer">
+                &copy;2009 Steve Johnson
+                (<a href="mailto:steve.johnson.public@gmail.com">steve.johnson.public@gmail.com</a>)
+            </div>
+            <hr class="space"/><br/>
+        </div>
+        {% endblock %}
+    </body>
+</html>

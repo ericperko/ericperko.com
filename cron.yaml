@@ -1,0 +1,4 @@
+cron:
+- description: post update
+  url: /run_updates
+  schedule: every 1 hours

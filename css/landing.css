@@ -1,0 +1,84 @@
+html {
+    background-color: #fff;
+/*    font-family: "Gill Sans", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif;*/
+}
+h1 {
+/*    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif;*/
+}
+
+/* ================================= */
+/* = Positioning and basic styling = */
+/* ================================= */
+
+#landing h1#title {
+    text-align: center;
+}
+#landing #content {
+    width: 500px;
+    height: 500px;
+    margin: 1.5em auto 0 auto;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border: 3px solid #ccc;
+/*    background: #fff url(http://filer.case.edu/srj15/steveasleep/background.png);*/
+    background-position: center;
+}
+.quad {
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+}
+.quad h2 {
+    margin-bottom: 0;
+}
+.quad#topleft {
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    background-color: #fff;
+    float: left;
+}
+.quad#topright {
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    background-color: #e8e8e8;
+    float: right;
+    text-align: right;
+}
+#bottom {
+    clear: both;
+}
+.quad#bottomleft {
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    background-color: #e8e8e8;
+    float: left;
+    text-align: left;
+}
+.quad#bottomright {
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    background-color: #fff;
+    float: right;
+    text-align: right;
+}
+
+/* ========================= */
+/* = Quad-specific styling = */
+/* ========================= */
+.quad ul {
+    margin: 0;
+    padding: 0;
+}
+.quad li {
+    list-style: none;
+}
+.quad h1 {
+    margin: -5px 0 20px 0;
+}
+
+.quad#topleft a, .quad#bottomright a, .quad#topright a, .quad#bottomleft a {
+    color: #444;
+}
+.quad#topleft a:hover, .quad#bottomright a:hover, .quad#topright a:hover, .quad#bottomleft a:hover {
+    color: #00f;
+}
