@@ -17,10 +17,7 @@ h1#title a {
 h1#title a:hover {
     text-decoration: none;
 }
-#main.app {
-/*    background: #fff url(../images/background_main.png);*/
-/*    background-repeat: no-repeat;*/
-}
+
 #footer {
     text-align: right;
 }
