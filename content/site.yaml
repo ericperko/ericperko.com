@@ -1,0 +1,31 @@
+- default:
+  - Blog: http://stevejohnson.posterous.com/
+  - tim|steve: http://timunionsteve.posterous.com/
+  - Music: music
+  - CWRU Hacker Society: http://goto.case.edu/
+  - Python game tutorial: pyglettutorial_index
+  - Start making games: http://stevejohnson.posterous.com/a-starting-point-for-making-games
+
+- hidden:
+  - Hacker Résumé: hacker_resume
+
+- Toys:
+  - gw0rp: gw0rp
+  - Artack: artack
+  - Bungie Chopper/Elite Bungie Chopper Squadron: bungie_chopper
+  - Escort Wing: escort_wing
+  - Splatterboard: splatterboard
+  - Art Project 1: art_project_1
+
+- Games:
+  - T-Reg: http://www.github.com/irskep/T-Reg
+  - Regex compiler: http://www.github.com/irskep/regex_compiler
+  - JTrie: http://www.github.com/irskep/jtrie
+  - MRJob Py3k port: http://www.github.com/irskep/mrjob/tree/py3k
+
+- Social:
+  - Résumé: resume
+  - Stack Overflow CV: http://careers.stackoverflow.com/stevejohnson
+  - Twitter: http://www.twitter.com/irskep
+  - Stack Overflow: http://stackoverflow.com/users/8061/steve-johnson
+  - Hacker News: http://news.ycombinator.com/user?id=stevejohnson

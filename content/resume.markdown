@@ -1,4 +1,4 @@
-#### [Hacker Version](/hacker_resume)
+<!-- #### [Hacker Version](/hacker_resume) -->
 #### [Print Version](http://dl.dropbox.com/u/360865/Stephen%20Johnson%20Resume.pdf)
 
 ### Education

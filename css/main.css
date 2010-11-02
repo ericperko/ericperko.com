@@ -55,9 +55,12 @@ a:visited {
 #sidebar ul {
     margin-left: 0;
     margin-right: 0;
+	padding-left: 0;
 }
 #sidebar li {
     list-style: none;
+	margin-left: 0;
+	padding-left: 0;
 }
 hr.space {
     display: none;

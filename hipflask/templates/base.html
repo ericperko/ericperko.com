@@ -21,42 +21,17 @@
             <h1 id="title"><a href="{{ url_for('index') }}">STEVE, ASLEEP</a></h1>
             <hr class="space"/><br/>
             <div class="span-8" id="sidebar">
-                <div class="span-8">
-                    <ul>
-                        {% for d in default %}
-                            <li><a href="{{d.url}}">{{d.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <hr/>
-                <div class="span-8">
-                    <h2>Toys</h2>
-                    <ul>
-                        {% for t in toys %}
-                            <li><a href="{{t.url}}">{{t.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <hr/>
-                <div class="span-8">
-                    <h2>Code</h2>
-                    <ul>
-                        {% for c in code %}
-                            <li><a href="{{c.url}}">{{c.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <hr/>
-                <div class="span-8">
-                    <h2>Social</h2>
-                    <ul>
-                        <li><a href="{{ url_for('resume') }}">R&eacute;sum&eacute;</a></li>
-                        <li><a href="http://careers.stackoverflow.com/stevejohnson">Stack Overflow CV</a></li>
-                        <li><a href="http://www.twitter.com/irskep">Twitter</a></li>
-                        <li><a href="http://stackoverflow.com/users/8061/steve-johnson">Stack Overflow</a></li>
-                        <li><a href="http://news.ycombinator.com/user?id=stevejohnson">Hacker News</a></li>
-                    </ul>
-                </div>
+                {% for group in groups %}
+                    <div class="span-8">
+                        {% if group.name != 'default' %}<h2>{{group.name}}</h2>{% endif %}
+                        <ul>
+                            {% for item in group['items'] %}
+                                <li><a href="{{item.url}}">{{item.name}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% if not loop.last %}<hr/>{% endif %}
+                {% endfor %}
                 {% block extra_sidebar_bottom %}{% endblock %}
             </div>
             <div class="span-15 last" id="content">
