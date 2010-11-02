@@ -60,3 +60,11 @@ def apps(app_name, page=1):
 
 for item in reverse_apps.keys():
     app.add_url_rule('/%s' % item, item, functools.partial(apps, item))
+
+# ==========
+# = Errors =
+# ==========
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_with_app_lists('404.html')

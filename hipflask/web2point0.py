@@ -9,6 +9,8 @@ from github2.client import Github
 
 import xmlwizardry
 
+from settings import GITHUB_USER, GITHUB_API_KEY, POSTEROUS_USER
+
 encode_xml = base64.encodestring
 decode_xml = base64.decodestring
 encode_commits = simplejson.dumps
@@ -18,7 +20,7 @@ from models import *
 
 def update_github():
     logging.info("updating github")
-    github = Github(username="irskep", api_token="86cec588ad8c0d35e3be0c3c41bc9e0b")
+    github = Github(username=GITHUB_USER, api_token=GITHUB_API_KEY)
     commits = []
     for r in github.repos.list(for_user='irskep'):
         new_commits = github.commits.list("irskep/%s" % r.name, 'master')
@@ -49,7 +51,7 @@ def update_github():
 def update_posterous():
     logging.info("updating posterous")
     response = urllib2.urlopen("http://posterous.com/api/readposts", urlencode((
-        ('hostname', 'stevejohnson'),
+        ('hostname', POSTEROUS_USER),
         ('num_posts', '3'),
     ))).read()
     return response
