@@ -6,7 +6,7 @@ import copy
 from flask import url_for, render_template
 
 apps = {}
-reverse_apps = {}
+title_lookup = {}
 groups = []
 page_counts = collections.defaultdict(lambda: 1)
 
@@ -24,10 +24,14 @@ for group_repr in yaml_repr:
         else:
             num_pages = 1
         item_name = item.keys()[0]
+        if '/' in item_name:
+            item_name, long_name = item_name.split("/")
+        else:
+            long_name = item_name
         item_url = item.values()[0]
         items.append({'name': item_name, 'url': item_url})
         apps[item_name] = item_url
-        reverse_apps[item_url] = item_name
+        title_lookup[item_url] = long_name
         page_counts[item_url] = num_pages
     
     groups.append({
