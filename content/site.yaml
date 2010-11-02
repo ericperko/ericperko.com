@@ -10,19 +10,19 @@
 - hidden:
   - Hacker Résumé: hacker_resume
 
-- Toys:
-  - gw0rp: gw0rp
+- Toys:    
+  - Art Project 1: art_project_1
   - Artack: artack
   - Bungie Chopper/Elite Bungie Chopper Squadron: bungie_chopper
+  - gw0rp: gw0rp
   - Escort Wing: escort_wing
   - Splatterboard: splatterboard
-  - Art Project 1: art_project_1
 
-- Games:
-  - T-Reg: http://www.github.com/irskep/T-Reg
-  - Regex compiler: http://www.github.com/irskep/regex_compiler
+- Games:  
   - JTrie: http://www.github.com/irskep/jtrie
   - MRJob Py3k port: http://www.github.com/irskep/mrjob/tree/py3k
+  - Regex compiler: http://www.github.com/irskep/regex_compiler
+  - T-Reg: http://www.github.com/irskep/T-Reg
 
 - Social:
   - Résumé: resume
