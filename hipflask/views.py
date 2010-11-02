@@ -55,4 +55,4 @@ def apps(app):
     return render_with_app_lists('app.html', **context)
 
 for item in reverse_apps.keys():
-     app.add_url_rule('/%s' % item, item, functools.partial(apps, item))
+    app.add_url_rule('/%s' % item, item, functools.partial(apps, item))
