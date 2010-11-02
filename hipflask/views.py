@@ -25,7 +25,7 @@ def index():
         'commits': commits,
         'title': "Home",
     }
-    return render_with_app_lists('index.html', **context)
+    return render_template('index.html', **context)
 
 @app.route('/run_updates')
 def run_updates():
@@ -56,7 +56,7 @@ def apps(app_name, page=1):
     
     with open(template_name, 'r') as f:
         context['html'] = Markup(markdown.markdown(f.read()))
-    return render_with_app_lists('page.html', **context)
+    return render_template('page.html', **context)
 
 for item in title_lookup.keys():
     app.add_url_rule('/%s' % item, item, functools.partial(apps, item))
@@ -67,4 +67,4 @@ for item in title_lookup.keys():
 
 @app.errorhandler(404)
 def page_not_found(error):
-    return render_with_app_lists('404.html')
+    return render_template('404.html')

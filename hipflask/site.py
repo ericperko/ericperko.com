@@ -5,6 +5,8 @@ import yaml
 import copy
 from flask import url_for, render_template
 
+from hipflask import app
+
 apps = {}
 title_lookup = {}
 groups = []
@@ -47,6 +49,6 @@ def parse_groups():
                 item['url'] = url_for(item['url'])
     return parsed_groups
 
-def render_with_app_lists(template, **kwargs):
-    kwargs['groups'] = parse_groups()
-    return render_template(template, **kwargs)
+@app.context_processor
+def inject_groups():
+    return {'groups': parse_groups()}
