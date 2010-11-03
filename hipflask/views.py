@@ -31,13 +31,13 @@ def index():
 
 @app.route('/update_posts')
 def update_posterous():
-    query_posterous.update_posterous()
-    return 'Updated posts'
+    posts = query_posterous.update_posterous()
+    return 'Updated posts: %s' % str(posts)
 #
 @app.route('/update_commits')
 def update_commits():
-    query_github.update_github()
-    return 'Updated commits'
+    commits = query_github.update_github()
+    return 'Updated commits: %s' % str(commits)
 
 # =========
 # = Pages =
