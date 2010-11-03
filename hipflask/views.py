@@ -9,8 +9,9 @@ from hipflask import app
 
 from flask import render_template, flash, url_for, redirect, Markup, abort
 
-import web2point0
-from site import *
+import query_github, query_posterous
+
+from site import title_lookup, page_counts
 
 # ==============
 # = Front page =
@@ -19,7 +20,8 @@ from site import *
 @app.route('/')
 def index():
     """Display front page with recent blog posts and Github commits"""
-    posts, commits = web2point0.get_posts_commits()
+    posts = query_posterous.get_posts()
+    commits = query_github.get_commits()
     context = {
         'posts': posts,
         'commits': commits,
@@ -29,19 +31,13 @@ def index():
 
 @app.route('/update_posts')
 def update_posterous():
-    web2point0.update_posterous()
+    query_posterous.update_posterous()
     return 'Updated posts'
 #
 @app.route('/update_commits')
 def update_commits():
-    web2point0.update_github()
+    query_github.update_github()
     return 'Updated commits'
-
-@app.route('/run_updates')
-def run_updates():
-    """Update posts/commits cache"""
-    web2point0.force_updates()
-    return 'Updated.'
 
 # =========
 # = Pages =
