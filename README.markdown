@@ -8,9 +8,10 @@ To secure the site and enable Github and Posterous streams, duplicate `/hipflask
 Requirements
 ------------
 
-* flask
-* github2
+* [flask](http://flask.pocoo.org/)
+* [github2](https://github.com/ask/python-github2)
 * jinja2 (flask)
-* markdown
-* simplejson
+* [markdown](http://pypi.python.org/pypi/Markdown/)
+* [posterous-python](https://github.com/nureineide/posterous-python)
+* [simplejson](http://pypi.python.org/pypi/simplejson)
 * werkzeug (flask)

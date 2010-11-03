@@ -27,6 +27,16 @@ def index():
     }
     return render_template('index.html', **context)
 
+@app.route('/update_posts')
+def update_posterous():
+    web2point0.update_posterous()
+    return 'Updated posts'
+#
+@app.route('/update_commits')
+def update_commits():
+    web2point0.update_github()
+    return 'Updated commits'
+
 @app.route('/run_updates')
 def run_updates():
     """Update posts/commits cache"""

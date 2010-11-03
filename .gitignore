@@ -8,3 +8,5 @@ simplejson
 werkzeug
 wtforms
 settings.py
+posterous
+

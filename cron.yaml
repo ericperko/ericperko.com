@@ -1,4 +1,7 @@
 cron:
+- description: commit update
+  url: /update_commits
+  schedule: every 2 hours
 - description: post update
-  url: /run_updates
-  schedule: every 1 hours
+  url: /update_posts
+  schedule: every 30 minutes
