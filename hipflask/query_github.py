@@ -52,6 +52,7 @@ def update_github():
         delete_all(RecentCommits)
         RecentCommits(commitsJson=encode_commits(recent_commits)).put()
     except DownloadError:
+        # Some query to Github took too long
         logging.info("unable to download from github")
     
     return recent_commits
