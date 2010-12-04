@@ -4,6 +4,7 @@ from __future__ import with_statement
 import logging
 import functools
 import markdown
+import encodings
 
 from hipflask import app
 
@@ -60,7 +61,7 @@ def apps(app_name, page=1):
             context['next_page'] = url_for('apps', app_name=app_name, page=this_page+1)
         template_name = 'content/%s_%s.markdown' % (app_name, page)
     
-    with open(template_name, 'r') as f:
+    with encodings.codecs.open(template_name, 'r', encoding='utf-8') as f:
         context['html'] = Markup(markdown.markdown(f.read()))
     return render_template('page.html', **context)
 
