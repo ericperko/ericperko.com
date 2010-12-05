@@ -10,3 +10,4 @@ wtforms
 settings.py
 posterous
 
+*.ai
