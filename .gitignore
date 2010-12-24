@@ -1,5 +1,6 @@
 *.pyc
 flask/
+logs/
 flaskext
 github2
 jinja2
