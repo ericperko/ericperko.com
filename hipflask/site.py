@@ -3,6 +3,7 @@ import collections
 import logging
 import yaml
 import copy
+import os
 from flask import url_for, render_template
 
 from hipflask import app
@@ -12,7 +13,9 @@ title_lookup = {}
 groups = []
 page_counts = collections.defaultdict(lambda: 1)
 
-with open('content/site.yaml', 'r') as f:
+site_yml_path = os.path.join(app.root_path, "..", "content", "site.yaml")
+
+with open(site_yml_path, 'r') as f:
     yaml_repr = yaml.load(f)
 
 for group_repr in yaml_repr:
