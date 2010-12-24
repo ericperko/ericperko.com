@@ -1,4 +1,3 @@
-from google.appengine.ext.webapp.util import run_wsgi_app
 from jinja2 import FileSystemLoader
 import os
 from hipflask import app
@@ -10,4 +9,5 @@ if len(app.jinja_loader.searchpath) == 1:
     import os
     app.jinja_loader.searchpath.append(os.path.join(app.root_path, '..', 'content', 'templates'))
 
-run_wsgi_app(app)
+if __name__ == "__main__":
+    app.run()

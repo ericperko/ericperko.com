@@ -10,7 +10,7 @@ from hipflask import app
 
 from flask import render_template, flash, url_for, redirect, Markup, abort
 
-import query_github, query_posterous
+#import query_github, query_posterous
 
 from site import title_lookup, page_counts
 
@@ -21,14 +21,18 @@ from site import title_lookup, page_counts
 @app.route('/')
 def index():
     """Display front page with recent blog posts and Github commits"""
-    posts = query_posterous.get_posts()
-    commits = query_github.get_commits()
+    #posts = query_posterous.get_posts()
+    #commits = query_github.get_commits()
+    posts = []
+    commits = []
     context = {
         'posts': posts,
         'commits': commits,
         'title': "Home",
     }
     return render_template('index.html', **context)
+
+"""
 
 @app.route('/update_posts')
 def update_posterous():
@@ -39,6 +43,8 @@ def update_posterous():
 def update_commits():
     commits = query_github.update_github()
     return 'Updated commits: %s' % str(commits)
+
+"""
 
 # =========
 # = Pages =
