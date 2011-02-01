@@ -1,14 +1,5 @@
 - default:
-  - Blog: http://stevejohnson.posterous.com/
-  - tim|steve: http://timunionsteve.posterous.com/
-  - Music: music
-  - CWRU Hacker Society: http://goto.case.edu/
-  - Python Game Tutorial/Python Game Programming Tutorial: pyglettutorial
-    pages: 6
-  - Start Making Games: http://stevejohnson.posterous.com/a-starting-point-for-making-games
-
-- hidden:
-  - Hacker Résumé: hacker_resume
+  - Curriculum Vitae: cv
 
 - Toys:    
   - Art Project 1: art_project_1
@@ -24,9 +15,6 @@
   - T-Reg: http://www.github.com/irskep/T-Reg
 
 - Social:
-  - Résumé: resume
-  - Hacker Résumé: hacker_resume
-  - Stack Overflow CV: http://careers.stackoverflow.com/stevejohnson
-  - Twitter: http://www.twitter.com/irskep
-  - Stack Overflow: http://stackoverflow.com/users/8061/steve-johnson
-  - Hacker News: http://news.ycombinator.com/user?id=stevejohnson
+  - Curriculum Vitae: cv
+  - Stack Overflow: http://stackoverflow.com/users/130251/eric-perko 
+  - Hacker News: http://news.ycombinator.com/user?id=wisesage5001
