@@ -1,48 +1,62 @@
-#### [Print Version](http://dl.dropbox.com/u/360865/Stephen%20Johnson%20Resume.pdf)
+#### [Print Version](http://dl.dropbox.com/u/1970299/Eric%20Perko%20CV.pdf)
 
 ### Education
 
-**Currently Enrolled:** Case Western Reserve University, pursuing B.S. and M.S. in Computer Science  
-**Expect to Graduate:** January 2012  
-**Current GPA:** 3.61
+**Currently Enrolled:** Case Western Reserve University, pursuing an MS in Computer Science 
+**Expect to Graduate:** June 2011
+**Cum. GPA:** 4.0/4.0
+**Projected Thesis:** Precision Navigation for Indoor Mobile Robots
+**Advisor:** Prof. Wyatt Newman
+
+**Past Degrees:** Case Western Reserve University, BS in Computer Science
+**Graduation Date:** May 2010
+**Cum. GPA:** 3.92/4.0
+**Honors:** Graduated Summa Cum Laude
+
+### Awards and Honors
+
+CWRU Trustee Scholarship, four years
+Ohio Academic Scholarship, four years
+EECS Research Award for senior demonstrating exceptional research potential
+BS/MS Program
+Dean's High Honors
 
 ### Technical Skills
 
-**Languages:** Python, C, Objective-C, Java, Javascript  
-**Technologies:** Cocoa, Django, Google App Engine, HTML/CSS, OpenGL, SQL, Swing  
-**Tools:** Eclipse, Git, Mercurial, Subversion, UNIX tools and workflows. Various desktop publishing, illustration, image editing, audio, and 3D modeling tools.  
+**Fluent in:** Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming
+**Proficient in:** C++, Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X  
+
+### Research Experience
+
+**Smart Wheelchair Project:** January 2010 - Present
+* Manage the entire software stack for a smart wheelchair, including integration of existing software components and the design, implementation and testing of new algorithms.
+* Design and conduct experiments to test aspects of human-computer interaction for the smart wheelchair.
+
+**Intelligent Ground Vehicle Team:** 2009-2010
+* Managed the design, implementation and integration of an entire software stack,
+including controls, localization, perception and planning, for an autonomous mobile
+robot.
+* Competed in [IGVC](http://http://www.igvc.org) in both 2009 and 2010
+
+### Teaching Experience
+
+**Case Western Reserve University**
+*Supervisor for high school students:* May 2010 - August 2010
+* Supervise and manage two high school students working on senior project
+
+*Teaching Assistant, Mobile Robotics Course:* Spring 2010, Spring 2011
+* Prepare robots and sensors for use by students
+* General proof-of-concept code for hardware interfaces
+* Assist students with practical application of lecture topics
 
 ### Selected Work Experience
 
-**Apple, Inc:** Intern, Objective-C Runtime Team, May 2010 - August 2010  
+**MIM Software Inc:** Intern, May 2009 - December 2010
+* Maintain and add new features to existing operations software
+* Designed and implemented initial prototype of new medical imaging product
+* Coordinated with other engineers at daily meetings
 
-* Worked with team members to design new runtime analysis tools                  
-* Implemented new tools and integrated them into Xcode Instruments               
-* Used new tools to uncover bugs in software under development                   
-* Helped other developers start using new tools                                  
-* Transferred documentation and maintenance responsibilities to Instruments team 
+### Activities
 
-**MIMvista:** Intern, May 2009 - September 2009  
-
-* Prototyped a new product in Grails to allow clinicians and patients to store and share medical image data securely (www.mimcloud.com)
-* Developed beta version of MIMcloud for Google App Engine, including Amazon S3 integration and Java upload applet
-* Wrote all front end HTML, CSS, and Javascript
-* Set up and administered development servers
-* Set up and maintained documentation about MIMcloud API and server administration
-
-### Activities, Interests, and Hobbies
-
-**Splatterboard**
-
-* Built an open-source drawing program in Python aimed at children and curious adults
-* Designed a brush plug-in system with public API
-
-**Gw0rp**
-
-* Acted as designer, programmer, and project lead for an entry in a game contest
-* Managed 8,000-line Python code base consisting of game engine and support tools
-
-**Community**
-
-* Co-organizer and regular speaker for CWRU Hacker Society, which hosts weekly tech talks and fosters collaboration between members on projects
-* Author of popular Python game programming tutorial, speaker at PyOhio 2009
+**CWRU Robotics Club**, founding Vice President, August 2010 - Present
+**CWRU UAV Competition 2010-2011**, Team Lead, October 2010 - Present
