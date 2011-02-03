@@ -13,3 +13,8 @@ Requirements
 * [posterous-python](https://github.com/nureineide/posterous-python)
 * [simplejson](http://pypi.python.org/pypi/simplejson)
 * werkzeug (flask)
+
+Installation
+------------
+
+* sudo easy_install -U jinja2 flask markdown simplejson

@@ -2,24 +2,6 @@
 
 {% block content %}
     <div class="about">
-        I am Steve Johnson, a student at Case Western Reserve University studying Computer Science. In addition to course work, internships, and the projects shown on this site, I help organize weekly tech talks at CWRU and play the piano for <a href="http://improv.case.edu/">IMPROVment</a>.
+	    I'm Eric Perko, a graduate student at <a href="http://cwru.edu">Case Western Reserve University</a> working on an M.S. in Computer Science. I've been focusing my degree on robotics and artificial intelligence and am finishing up an MS thesis that addresses precision navigation for a robotic wheelchair. As part of that work, I've been leveraging the <a href="http://ros.org">Robot Operating System</a> as well as contributing open source code to the ROS community.
     </div>
-    <h2>Recent blog posts:</h2>
-    <ul class="recent_post_titles">
-    {% for post in posts %}
-        <li><a href="{{post.link}}">{{post.title}}</a></li>
-    {% endfor %}
-        <a href="http://stevejohnson.posterous.com/">more...</a>
-    </ul>
-    
-    <h2>Recent Github commits:</h2>
-    <ul class="recent_commits">
-    {% for c in commits %}
-        <li><a href="{{c.repo_url}}">{{c.repo_name}}</a> on {{c.time.month}}/{{c.time.day}}/{{c.time.year}} at {{c.time.hour}}:{{c.time.minute}}:<br/>{{c.message}}</li>
-    {% endfor %}
-    </ul>
-    <a href="http://www.github.com/irskep">more...</a>
-    
-    <br/>
-    {% if should_update %}*{% endif %}
 {% endblock %}
