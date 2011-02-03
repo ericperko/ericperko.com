@@ -1,18 +1,18 @@
 - default:
   - Curriculum Vitae: cv
 
-- Toys:    
-  - Art Project 1: art_project_1
-  - Artack: artack
-  - Bungie Chopper/Elite Bungie Chopper Squadron: bungie_chopper
-  - gw0rp: gw0rp
-  - Escort Wing: escort_wing
-  - Splatterboard: splatterboard
+#- Toys:    
+#  - Art Project 1: art_project_1
+#  - Artack: artack
+#  - Bungie Chopper/Elite Bungie Chopper Squadron: bungie_chopper
+#  - gw0rp: gw0rp
+#  - Escort Wing: escort_wing
+#  - Splatterboard: splatterboard
 
-- Code:  
-  - JTrie: http://www.github.com/irskep/jtrie
-  - Regex compiler: http://www.github.com/irskep/regex_compiler
-  - T-Reg: http://www.github.com/irskep/T-Reg
+#- Code:  
+# - JTrie: http://www.github.com/irskep/jtrie
+# - Regex compiler: http://www.github.com/irskep/regex_compiler
+#  - T-Reg: http://www.github.com/irskep/T-Reg
 
 - Social:
   - Curriculum Vitae: cv
