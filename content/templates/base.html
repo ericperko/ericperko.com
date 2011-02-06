@@ -1,51 +1,52 @@
 <!DOCTYPE html 
-     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml"
-    <head>
-    <title>Eric Perko's Homepage - {% autoescape off %}{{title}}{% endautoescape %}</title>
-    <link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/blueprintcss/screen.css" />
-    <link rel="stylesheet" href="/css/blueprintcss/print.css" type="text/css" media="print"> 
-    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprintcss/ie.css" type="text/css" media="screen, projection"><![endif]--> 
-    <link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/main.css" />
-    {% block css %}
-    {% endblock %}
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title>Eric Perko's Homepage - {% autoescape off %}{{title}}{% endautoescape %}</title>
+		<meta name="google-site-verification" content="jP0iNJ4et5OZPoW_fCRvcJ4btXB0KYWrktN7c2NoKgE" />
+		<link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/blueprintcss/screen.css" />
+		<link rel="stylesheet" href="/css/blueprintcss/print.css" type="text/css" media="print"> 
+		<!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprintcss/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+		<link rel="stylesheet" type="text/css"  media="screen, projection" href="/css/main.css" />
+		{% block css %}
+		{% endblock %}
 
-    {% block extra_head %}{% endblock %}
-    </head>
+		{% block extra_head %}{% endblock %}
+	</head>
 
-    <body>
-        {% block bd %}
-        <div class="container {% block pageclass %}{% endblock %}" id="main">
-            <h1 id="title"><a href="{{ url_for('index') }}">Eric Perko's Homepage</a></h1>
-            <hr class="space"/><br/>
-            <div class="span-8" id="sidebar">
-                {% for group in groups %}
-                    <div class="span-8">
-                        {% if group.name != 'default' %}<h2>{{group.name}}</h2>{% endif %}
-                        <ul>
-                            {% for item in group['items'] %}
-                                <li><a href="{{item.url}}">{{item.name}}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    {% if not loop.last %}<hr/>{% endif %}
-                {% endfor %}
-                {% block extra_sidebar_bottom %}{% endblock %}
-            </div>
-            <div class="span-15 last" id="content">
-                {% block content %}{% endblock %}
-            </div>
-            <hr class="space"/>
-            <div class="span-24 last" id="footer">
-                &copy;2011 Eric Perko
-                (<a href="mailto:eric@ericperko.com">eric@ericperko.com</a>)
-                <br/>
-                Powered by <a href="http://flask.pocoo.org/">Flask</a> and <a href="http://httpd.apache.org/">Apache</a>
-            </div>
-            <hr class="space"/><br/>
-        </div>
-        {% endblock %}
-    </body>
+	<body>
+		{% block bd %}
+		<div class="container {% block pageclass %}{% endblock %}" id="main">
+			<h1 id="title"><a href="{{ url_for('index') }}">Eric Perko's Homepage</a></h1>
+			<hr class="space"/><br/>
+			<div class="span-8" id="sidebar">
+				{% for group in groups %}
+				<div class="span-8">
+					{% if group.name != 'default' %}<h2>{{group.name}}</h2>{% endif %}
+					<ul>
+						{% for item in group['items'] %}
+						<li><a href="{{item.url}}">{{item.name}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% if not loop.last %}<hr/>{% endif %}
+				{% endfor %}
+				{% block extra_sidebar_bottom %}{% endblock %}
+			</div>
+			<div class="span-15 last" id="content">
+				{% block content %}{% endblock %}
+			</div>
+			<hr class="space"/>
+			<div class="span-24 last" id="footer">
+				&copy;2011 Eric Perko
+				(<a href="mailto:eric@ericperko.com">eric@ericperko.com</a>)
+				<br/>
+				Powered by <a href="http://flask.pocoo.org/">Flask</a> and <a href="http://httpd.apache.org/">Apache</a>
+			</div>
+			<hr class="space"/><br/>
+		</div>
+		{% endblock %}
+	</body>
 </html>
