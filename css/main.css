@@ -1,18 +1,15 @@
 body {
-    background: #fff url(../images/background_main.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    min-height: 1368px;
+    background: #f2f2f2 no-repeat center top;
 }
 h1#title {
-    color: #acf;
+    color: #888;
     text-align: left;
     margin: 1em auto 0 auto;
     letter-spacing: 4px;
     font-size: 300%;
 }
 h1#title a {
-    color: #acf;
+    color: #888;
 }
 h1#title a:hover {
     text-decoration: none;
@@ -30,15 +27,15 @@ h1#title a:hover {
     border: none;
 }
 a {
-    color: #88f;
+    color: #888;
     text-decoration: none;
 }
 a:hover {
-    color: #00f;
+    color: #008;
     text-decoration: underline;
 }
 a:visited {
-    color: #55c;
+    color: #555;
 }
 #sidebar {
 /*    text-align: right;*/
@@ -85,7 +82,7 @@ ul.recent_commits li {
 #content .about {
     font-size: 1.2em;
     padding: 1em;
-    background-color: #fdd;
+    background-color: #ffd362;
     margin-bottom: 1em;
 }
 #content .about .underline {
