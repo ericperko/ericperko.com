@@ -9,7 +9,7 @@ h1#title {
     font-size: 300%;
 }
 h1#title a {
-    color: #888;
+    color: #555;
 }
 h1#title a:hover {
     text-decoration: none;
@@ -27,7 +27,7 @@ h1#title a:hover {
     border: none;
 }
 a {
-    color: #888;
+    color: #555;
     text-decoration: none;
 }
 a:hover {
@@ -35,16 +35,16 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: #555;
+    color: #888;
 }
 #sidebar {
 /*    text-align: right;*/
 }
 #sidebar a {
-    color: #888;
+    color: #555;
 }
 #sidebar a:visited {
-    color: #555;
+    color: #888;
 }
 #sidebar ul {
     margin-left: 0;
