@@ -38,7 +38,7 @@ robot.
 * Competed in [IGVC](http://www.igvc.org) in both 2009 and 2010
 
 ### Publications
-* E. Perko and W. Newman, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, (in progress, 2011)
+* E. Perko, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, (in progress, 2011)
 * T. Yanick, E. Perko and W. Newman, *Comparison of Control Methods for an Intelligent Wheelchair*, (in progress, to be submitted to IROS 2011)
 
 ### Teaching Experience
