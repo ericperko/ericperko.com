@@ -5,8 +5,6 @@
 **Currently Enrolled:** Case Western Reserve University, pursuing an MS in Computer Science   
 **Expect to Graduate:** June 2011  
 **Cum. GPA:** 4.0/4.0  
-**Projected Thesis:** Precision Navigation for Indoor Mobile Robots  
-**Advisor:** Prof. Wyatt Newman  
 
 **Past Degree:** Case Western Reserve University, BS in Computer Science  
 **Graduation Date:** May 2010, graduated Summa Cum Laude  
@@ -23,7 +21,7 @@
 ### Technical Skills
 
 **Fluent in:** Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	
-**Proficient in:** C++, Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X  
+**Proficient in:** C++, Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X
 
 ### Research Experience
 
@@ -38,6 +36,10 @@
 including controls, localization, perception and planning, for an autonomous mobile
 robot.
 * Competed in [IGVC](http://www.igvc.org) in both 2009 and 2010
+
+### Publications
+* E. Perko and W. Newman, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, (in progress, 2011)
+* T. Yanick, E. Perko and W. Newman, *Comparison of Control Methods for an Intelligent Wheelchair*, (in progress, to be submitted to IROS 2011)
 
 ### Teaching Experience
 
