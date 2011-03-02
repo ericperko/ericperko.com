@@ -1,5 +1,3 @@
-### CWRU ROS Package
-
 #### Source code: [cwru-robotics/cwru-ros-pkg](https://github.com/cwru-robotics/cwru-ros-pkg)
 
 I am the current maintainer of the ROS repository for the [Case Western Reserve University Mobile Robotics Lab](http://mobilerobots.case.edu). Code in this repository is used on our [IGVC](/igvc) robots, by Roberto, the EECS deptartment's robotic tour guide (or will be someday) and by the Mobile Robotics class offered every spring.
