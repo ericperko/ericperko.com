@@ -1,6 +1,6 @@
 A collection of miscellaneous course projects that were geared towards applications in robotics.
 
-#### [Real-time Object Detection for IGVC](http://dl.dropbox.com/u/1970299/EricPerkoObsDetection.pdf)
+#### [Real-time Object Detection for IGVC](http://dl.dropbox.com/u/1970299/EricPerkoObsDetection.pdf) for EECS 600 Machine Learning, Fall 2009
 
 **Abstract:**
 Detection of arbitrary objects in images is a difficult task, made even more so by the real-time
@@ -15,7 +15,7 @@ orange barrels, A-frames and white lines painted on grass. From these tests, I f
 performance of the Viola-Jones detector was actually very poor on this data set, most likely due to the
 feature representation used.
 
-#### [EKF SLAM Implementation and Estimation Evaluation](http://dl.dropbox.com/u/1970299/EricPerkoSLAM.pdf)
+#### [EKF SLAM Implementation and Estimation Evaluation](http://dl.dropbox.com/u/1970299/EricPerkoSLAM.pdf) for EECS 491 Artificial Intelligence, Spring 2009
 
 **Abstract:**
 I implemented an algorithm to solve the online simultaneous localization and
