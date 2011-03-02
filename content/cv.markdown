@@ -40,6 +40,7 @@ robot.
 ### Publications
 * E. Perko, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, (in progress, 2011)
 * T. Yanick, E. Perko and W. Newman, *Comparison of Control Methods for a Smart Wheelchair*, (in progress, to be submitted to IROS 2011)
+* C. Rockey, E. Perko and W. Newman, *Comparison of Laser Scanner Performance for Indoor Environments*, (in progress, to be submitted to IROS 2011)
 
 ### Teaching Experience
 
