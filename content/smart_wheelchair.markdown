@@ -4,4 +4,4 @@ Some of my current research is on the Smart Wheelchair Project. For a short vide
 
 ![Otto, the CWRU Smart Wheelchair](/images/otto.jpg) For another video showing the Otto, the smart wheelchair, under the control of a verbal joystick, see [YouTube](http://www.youtube.com/user/chadrockey87#p/a/u/2/Ly1ot7R1Tlw). This demonstrates an early version of our "motoric" mode wherein the user emulates a physical joystick by giving verbal commands.
 
- ![Mater, the Smart Lift](/images/lift.jpg) This project also encompasses work creating an autonomous Hoyer lift, with the end goal of a Smart Wheelchair and Smart Lift being able to autonomously dock in order to transfer a user in and out of the Smart Wheelchair. 
+This project also encompasses work creating an autonomous Hoyer lift, with the end goal of a Smart Wheelchair and Smart Lift being able to autonomously dock in order to transfer a user in and out of the Smart Wheelchair. ![Mater, the Smart Lift](/images/lift.jpg) 
