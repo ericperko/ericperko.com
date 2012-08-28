@@ -54,6 +54,7 @@ robot.
 ### Selected Work Experience
 
 **[National Robotics Engineering Center, CMU](www.rec.ri.cmu.edu):** Software Engineer, July 2011 - Present
+
 * Built software to specs for autonomous navigation system ([ANS](http://www.ri.cmu.edu/research_project_detail.html?type=description&project_id=550&menu_id=261))
 * Evaluated performance of autonomous navigation system after month-long field experiment
 * Produced multiple technical reports including extensive research into the state-of-the-art, recommendations for technical approaches and development of initial prototypes
