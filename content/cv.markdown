@@ -3,7 +3,7 @@
 ### Education
 
 **Currently Enrolled:** Case Western Reserve University, pursuing an MS in Computer Science   
-**Expect to Graduate:** June 2011  
+**Graduation Date:** January 2013
 **Cum. GPA:** 4.0/4.0  
 
 **Past Degree:** Case Western Reserve University, BS in Computer Science  
@@ -20,8 +20,8 @@
 
 ### Technical Skills
 
-**Fluent in:** Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	
-**Proficient in:** C++, Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X
+**Fluent in:** C++, Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	
+**Proficient in:** Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X
 
 ### Research Experience
 
@@ -38,9 +38,7 @@ robot.
 * Competed in [IGVC](http://www.igvc.org) in both 2009 and 2010
 
 ### Publications
-* E. Perko, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, (in progress, 2011)
-* T. Yanick, E. Perko and W. Newman, *Comparison of Control Methods for a Smart Wheelchair*, (in progress, to be submitted to IROS 2011)
-* C. Rockey, E. Perko and W. Newman, *Comparison of Laser Scanner Performance for Indoor Environments*, (in progress, to be submitted to IROS 2011)
+* E. Perko, *Precision Navigation for Indoor Mobile Robots*, M.S. Thesis, January 2013
 
 ### Teaching Experience
 
@@ -55,7 +53,14 @@ robot.
 
 ### Selected Work Experience
 
-**MIM Software Inc:** Intern, May 2009 - December 2010  	
+**[National Robotics Engineering Center, CMU](www.rec.ri.cmu.edu):** Software Engineer, July 2011 - Present
+* Built software to specs for autonomous navigation system ([ANS](http://www.ri.cmu.edu/research_project_detail.html?type=description&project_id=550&menu_id=261))
+* Evaluated performance of autonomous navigation system after month-long field experiment
+* Produced multiple technical reports including extensive research into the state-of-the-art, recommendations for technical approaches and development of initial prototypes
+* Built textured geometric models of mines from laser and camera data
+    * Included design of data interchange format as well as development of a model visualization tool
+
+**[MIM Software Inc](www.mimsoftware.com):** Intern, May 2009 - December 2010  	
 
 * Maintain and add new features to existing operations software
 * Designed and implemented initial prototype of new medical imaging product
@@ -63,5 +68,4 @@ robot.
 
 ### Activities
 
-**CWRU Robotics Club**, founding Vice President, August 2010 - Present  
-**CWRU UAV Competition 2010-2011**, Team Lead, October 2010 - Present
+**CWRU Robotics Club**, founding Vice President, August 2010 - June 2011 
