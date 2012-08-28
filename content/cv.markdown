@@ -20,7 +20,7 @@
 
 ### Technical Skills
 
-**Fluent in:** C++, Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	
+**Fluent in:** C++, Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	 
 **Proficient in:** Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X
 
 ### Research Experience
