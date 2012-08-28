@@ -3,7 +3,7 @@
 ### Education
 
 **Currently Enrolled:** Case Western Reserve University, pursuing an MS in Computer Science   
-**Graduation Date:** January 2013
+**Graduation Date:** January 2013  
 **Cum. GPA:** 4.0/4.0  
 
 **Past Degree:** Case Western Reserve University, BS in Computer Science  
