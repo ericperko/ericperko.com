@@ -1,5 +1,10 @@
 #### Source code: [ericperko/precision_navigation](https://github.com/ericperko/precision_navigation)
 
-This is my thesis topic. The goal of this project is to solve some of the issues our group has seen when attempting to using existing navigation algorithms for our smart wheelchair. This involves a number of different topics, including precision localization, precision path following and dynamic path planning.
+#### Thesis Latex source code: [ericperko/cwru_ms_thesis](https://github.com/ericperko/cwru_ms_thesis)
 
-You can find a video of some of the current functionality on [YouTube](http://www.youtube.com/user/chadrockey87#p/a/u/2/Ly1ot7R1Tlw). This video demonstrates the precision navigation taking predetermined goals (as output by a speech recognition module) and following a path precisely in order to achieve the desired position. You'll also note some of our early work interfacing the robotic platform with our "Smart Door" as a first step towards full integration with a "Smart Building".
+#### Thesis PDF version: [Precision Navigation for Indoor Mobile Robots](http://dl.dropbox.com/u/1970299/EricPerkoCwruMsThesis.pdf)
+
+#### Thesis Defense Slides: [Precision Navigation for Indoor Mobile Robots](https://docs.google.com/presentation/d/1lY0TqNb_-ygW2uUKvOQE4UTBd5OgHlRafy4pJYUcWg4/edit)
+
+**Abstract:**
+This thesis describes a precision navigation system for indoor mobile robots, developed to address deficiencies in the ROS navigation stack when used for precision navigation. It includes a precision localization subsystem, based on a planar laser scanner, wheel encoders, a gyroscope and an *a priori* map, and a precision path execution system made up of a steering algorithm, a trajectory generator and a simplistic path planner. A 3D octree costmap based on the OctoMap library was also developed for collision detection. Geometric parameterizations for path segments were developed for use by those components. The precision navigation system was evaluated using a physical robot, CWRU's HARLIE, as well as in a Gazebo simulation. This precision navigation system allowed HARLIE to precisely navigate indoors, following paths made up of straight lines, constant curvature arcs and spin-in-place segments with as little as just over three centimeters of RMS lateral offset error.
