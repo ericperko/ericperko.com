@@ -20,8 +20,8 @@
 
 ### Technical Skills
 
-**Fluent in:** C++, Python, C, Ruby on Rails, Robot Operating System (ROS), Network Programming	 
-**Proficient in:** Java, Git, Mercurial, Subversion, Matlab, Linux (Ubuntu/Gentoo), Windows XP/7, Mac OS X
+**Fluent in:** C++, Python, C, Robot Operating System (ROS), Point Cloud Library (PCL), Qt, OpenSceneGraph, Linux (Ubuntu/Gentoo), Network Programming	 
+**Proficient in:** Git, Mercurial, Ruby on Rails, Java, Subversion, Matlab, Windows XP/7, Mac OS X
 
 ### Research Experience
 
@@ -60,11 +60,12 @@ robot.
 * Produced multiple technical reports including extensive research into the state-of-the-art, recommendations for technical approaches and development of initial prototypes
 * Built textured geometric models of mines from laser and camera data
     * Included design of data interchange format as well as development of a model visualization tool
+* Designed and built user-friendly point cloud editor for out-of-core- point cloud datasets using Qt, OpenSceneGraph and PCL
 
 **[MIM Software Inc](www.mimsoftware.com):** Intern, May 2009 - December 2010  	
 
-* Maintain and add new features to existing operations software
-* Designed and implemented initial prototype of new medical imaging product
+* Maintain and add new features to existing operations web application
+* Designed and implemented initial prototype of new cloud-based medical imaging product
 * Coordinated with other engineers at daily meetings
 
 ### Activities
