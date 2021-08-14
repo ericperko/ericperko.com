@@ -1,20 +1,27 @@
 ericperko.com
 =============
 
-Backend code for Eric Perko's personal web site. Based on the backend for Steve Johnson's personal site, available at github.com/irskep/steveasleep 
+Backend code for Eric Perko's personal web site.
 
-Requirements
-------------
+Built with Hugo
 
-* [flask](http://flask.pocoo.org/)
-* [github2](https://github.com/ask/python-github2)
-* jinja2 (flask)
-* [markdown](http://pypi.python.org/pypi/Markdown/)
-* [posterous-python](https://github.com/nureineide/posterous-python)
-* [simplejson](http://pypi.python.org/pypi/simplejson)
-* werkzeug (flask)
+# Clone
+git clone --recursive <URL to this git repo>
+git submodule update --init --recursive
 
-Installation
-------------
+# Required dependencies
+hugo == 0.87.0 (extended)
 
-* sudo easy_install -U jinja2 flask markdown simplejson
+sudo snap install hugo --channel=extended
+
+# Update the theme
+git submodule update --remote
+
+# Start a live server
+cd site; hugo server -D
+
+# Build the site
+cd site; hugo -D
+
+# Package the site
+cd site; tar -cavf ericperko-website.tar.gz public/

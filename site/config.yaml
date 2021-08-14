@@ -1,0 +1,28 @@
+baseURL: http://ericperko.com
+languageCode: en-us
+title: Eric Perko's Homepage
+theme: hugo-book
+
+enableGitInfo: false
+
+markup:
+  tableOfContents:
+    startLevel: 2
+
+languages:
+  en:
+    languageName: English
+    contentDir: content
+    weight: 1
+
+menu:
+  after:
+    - name: "GitHub"
+      url: "https://github.com/ericperko/ericperko.com"
+
+params:
+  BookToC: true
+  BookSection: docs
+  BookDateFormat: "January 2, 2006"
+  BookSearch: true
+  BookComments: false
