@@ -23,5 +23,16 @@ cd site; hugo server -D
 # Build the site
 cd site; hugo -D
 
-# Package the site
-cd site; tar -cavf ericperko-website.tar.gz public/
+# Package the site & deploy
+*Assumes that ssh keys have been setup properly*
+
+cd site; rsync -avhnz --progress --delete public/ ericperko_ericperko@ssh.phx.nearlyfreespeech.net:/home/public/
+
+Remove the **-n** to actually transfer the site.
+
+# Misc Notes
+
+Adding a theme:  git submodule add https://github.com/yoshiharuyamashita/blackburn.git site/themes/blackburn
+
+Other Blackburn-based sites:
+- https://masalmon.eu/bio/

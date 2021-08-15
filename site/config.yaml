@@ -1,28 +1,62 @@
 baseURL: http://ericperko.com
 languageCode: en-us
 title: Eric Perko's Homepage
-theme: hugo-book
+author: Eric Perko
+copyright: "&copy; 2021. All Rights Reserved"
+theme: blackburn
+paginate: 10
+enableRobotsTXT: true
 
-enableGitInfo: false
-
-markup:
-  tableOfContents:
-    startLevel: 2
-
-languages:
-  en:
-    languageName: English
-    contentDir: content
-    weight: 1
-
-menu:
-  after:
-    - name: "GitHub"
-      url: "https://github.com/ericperko/ericperko.com"
+indexes:
+  tag: tags
+  project: projects
 
 params:
-  BookToC: true
-  BookSection: docs
-  BookDateFormat: "January 2, 2006"
-  BookSearch: true
-  BookComments: false
+  subtitle: "Software Engineer / Roboticist"
+  brand: "Eric Perko"
+  description: "Eric Perko's personal website"
+  highlightjs: androidstudio
+  highlightjs_extra_languages: 
+    - yaml
+  dateFormat: "02 Jan 2006, 15:04"
+ 
+indexes:
+  tag: tags
+
+social:
+  github: ericperko
+  linkedin: ericperko
+  gitlab: ericperko
+  stackoverflow: 130251/eric-perko
+  serverfault: 64380/eric-perko
+  steam: ericperko
+
+menu:
+  main:
+    - name: Home
+      pre: "<i class='fa fa-home fa-fw'></i>"
+      weight: 1
+      identifier: home
+      url: "/"
+    - name: About
+      pre: "<i class='fa fa-user fa-fw'></i>"
+      weight: 2
+      identifier: about
+      url: "/about"
+    - name: Posts
+      pre: "<i class='fa fa-list fa-fw'></i>"
+      weight: 3
+      identifier: post
+      url: "/post/"
+    - name: Tags
+      pre: "<i class='fa fa-tags fa-fw'></i>"
+      weight: 4
+      identifier: tags
+      url: "/tags"
+    - name: Contact
+      pre: "<i class='fa fa-envelope fa-fw'></i>"
+      weight: 5
+      url: "/contact"
+
+permalinks:
+  post: "/:year/:month/:day/:slug"

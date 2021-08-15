@@ -1,3 +1,9 @@
++++
+title = "Precision Navigation for Indoor Mobile Robots"
+date = "2021-08-14"
+tags = ["thesis", "mobile robots", "indoor navigation", "robotics", "motion planning", "precision navigation"]
++++
+
 #### Source code: [ericperko/precision_navigation](https://github.com/ericperko/precision_navigation)
 
 #### Thesis Latex source code: [ericperko/cwru_ms_thesis](https://github.com/ericperko/cwru_ms_thesis)
